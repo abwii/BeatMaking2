@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>BeatMaking</title>
+<link rel="icon" href="img\logo.png">	
+<link rel="stylesheet" type="text/css" href="css/play.css">
+<script src="js/play.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+</style>
+
+
+<header>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Accueil</a>
+  <a href="#">Communauté</a>
+  <a href="#">FAQ</a>
+  <a href="#" class="rainbow" >Contact</a>
+</div>
+
+<div id="main">
+  <img class="logoMenu" src="img/logo.png" onclick="openNav()">
+</div>
+
+<li class="hud">
+<button class="supprimer" onclick="supprimerPistes()">supprimer</button>
+<button class="download" >download</button>
+</li>
+
+</header>
+
+
+<body>
+
+<!-- <div class="filtre"></div> -->
+
+<!-- Listes de sons -->
+
+<ul class="hList">
+
+	<div class="dropdown">
+	  <button class="dropbtn">Hats ▽</button>
+	  <p>|</p>
+	  <input name="hats" class="indicateursA" type="text" placeholder="">
+	  <div class="dropdown-content">
+	  	<a onclick="hatsn()">Aucun</a>
+	    <a onclick="hats1()">1 - Le Pchit</a>
+	    <a onclick="hats2()">2 - Hat Rapide</a>
+	    <a onclick="hats3()">3 - Hat Lent</a>
+	  </div>
+	</div>
+	<div class="dropdown">
+	  <button class="dropbtn">Kick ▽</button>
+	  <p>|</p>
+	  <input name="kick" class="indicateursA" type="text" placeholder="">
+	  <div class="dropdown-content">
+	  	<a onclick="drumsn()">Aucun</a>
+	    <a onclick="drums1()">1 - Bum Tss</a>
+	    <a onclick="drums2()">2 - Ballon qui rebondit</a>
+	    <a onclick="drums3()">3 - Kick</a>
+	  </div>
+	</div>
+	<div class="dropdown">
+	  <button class="dropbtn">Claps ▽</button>
+	  <p>|</p>
+	  <input name="claps" class="indicateursA" type="text" placeholder="">
+	  <div class="dropdown-content">
+	  	<a onclick="clapsn()">Aucun</a>
+	    <a onclick="claps1()">1 - m TCHHH m TCHHHHH</a>
+	    <a onclick="claps2()">2 - m   TCHH    m    TCHH</a>
+	    <a onclick="claps3()">3 - Juste un clap</a>
+	  </div>
+	</div>
+	<div class="dropdown">
+	  <button class="dropbtn">Melodies ▽</button>
+	  <p>|</p>
+	  <input name="melodies" class="indicateursA" type="text" placeholder="">
+	  <div class="dropdown-content">
+	  	<a onclick="melodiesn()">Aucun</a>
+	    <a onclick="melodies1()">1 - Jul type beat</a>
+	    <a onclick="melodies2()">2 - Drill couteau</a>
+	    <a onclick="melodies3()">3 - L'époque des anienc</a>
+	  </div>
+	</div>
+	<div class="dropdown">
+	  <button class="dropbtn">Basse ▽</button>
+	  <p>|</p>
+	  <input name="basse" class="indicateursA" type="text" placeholder="">
+	  <div class="dropdown-content">
+	  	<a onclick="bassesn()">Aucun</a>
+	    <a onclick="basses1()">1 - BonnnBONWINWOUINNwonn</a>
+	    <a onclick="basses2()">2 - BUM bin boum boum binbim</a>
+	    <a onclick="basses3()">3 - bonnnnnnnnbonbBINNNNBONBONbonbinnn</a>
+	  </div>
+	</div>
+
+</ul>  
+
+<!-- Lecteurs audio -->
+
+<li class="player">
+
+	<p></p>
+	<audio id="refresh" class="piste1" controls loop >
+		<source id="choix1" type="audio/mp3" src="">
+	</audio>
+
+	<p></p>
+	<audio id="refresh1" class="piste2" controls loop >
+		<source id="choix2" type="audio/mp3" src="">
+	</audio>
+
+	<p></p>
+	<audio id="refresh2" class="piste3" controls loop >
+		<source id="choix3" type="audio/mp3" src="">
+	</audio>
+
+	<p></p>
+	<audio id="refresh3" class="piste4" controls loop >
+		<source id="choix4" type="audio/mp3" src="">
+	</audio>
+
+	<p></p>
+	<audio id="refresh4" class="piste5" controls loop >
+		<source id="choix5" type="audio/mp3" src="">
+	</audio>
+
+</li>
+
+<!-- ⏵︎ ⏸︎ ⏹︎ -->
+
+<nav class="controllerS">
+	<button class="controllerPlay" onclick="playMusic()" type="button">⏵︎</button>
+	<button class="controllerPause" onclick="pauseAudio()" type="button">⏸︎</button> 
+	<button class="controllerStop" onclick="stopAudio()" type="button">⏹︎</button>
+</nav>
+
+	<video id="vid" class="bcg" autoplay loop muted>
+		<source src="vid\DJ.mp4" type="video/mp4">
+	</video>
+
+</body>
+
+<footer>
+	<p>Site crée par Wassim et Nathan, PPE pour l'école IMIE PARIS</p>
+<a target="file" href="https://www.imie-paris.fr/"><img class="imie" src="img\logoIMIE.png"></a>
+
+</footer>

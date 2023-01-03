@@ -1,0 +1,126 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+}
+
+@-webkit-keyframes fadein{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body{
+	background-color: black;
+}
+
+.logo{
+	position: absolute;
+	margin-left: 3%;
+	margin-top: 67px;
+	height: 70px;
+}
+
+.player1{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 200px;
+}
+
+.player2{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 20px;
+}
+
+.player3{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 20px;
+}
+
+.player4{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 20px;
+}
+
+.player5{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 20px;
+}
+
+.player6{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 200px;
+}
+
+.player7{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 20px;
+}
+
+.player8{
+	position: relative;
+	margin: 0 auto;
+	display: table;
+	padding-top: 20px;
+}
+
+.barre1{
+position: absolute;
+width: 14px;
+height: 137px;
+left: 1353px;
+top: 260px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.barre2{
+position: absolute;
+width: 14px;
+height: 137px;
+left: 557px;
+top: 260px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.barre3{
+position: absolute;
+width: 14px;
+height: 137px;
+left: 1154px;
+top: 260px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.barre4{
+position: absolute;
+width: 14px;
+height: 137px;
+left: 953px;
+top: 260px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.barre5{
+position: absolute;
+width: 14px;
+height: 137px;
+left: 756px;
+top: 260px;
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+.kick{
+	height: 400px;
+}

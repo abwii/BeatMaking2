@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>BeatMaking</title>
+<link rel="icon" href="img\logo.png">
+<link rel="stylesheet" type="text/css" href="faq.css">
+<script src="script.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+</style>
+
+
+<header>
+
+        <a href="bienvenue.html"><img id="logo" class="logo" src="img\logo.png"></a>
+
+        <ul class="bn">
+        <a href="bienvenue.html"><li>Accueil</li></a>
+        <a href="commu.html"><li>Commu</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="faq.html"><li>FAQ</li></a>
+        </ul>
+
+</header>
+
+
+</head>
+
+<body>
+
+ <button type="button" class="collapsible">Comptez-vous ajouter de nouvelles pistes?</button>
+<div class="content">
+  <p>Bien évidemment ceci n'est que le début d'un grand projet. N'hésitez pas à nous transmettre des idées afin de pouvoir répondre à vos attentes.</p>
+</div> 
+
+<button type="button" class="collapsible">Combien de temps avez-vous mis afin de faire cet incroyable site?</button>
+<div class="content">
+  <p>Nos équipes ont travaillés durant 10 jours avec une efficacité sans failles.</p>
+
+</div> 
+
+<button type="button" class="collapsible">Comptez-vous faire évoluer votre projet?</button>
+<div class="content">
+  <p>Il ne serait pas raisonnable d'arrêter en si bon chemin. Nous comptons travailler avec des professionels de la musique afin de pouvoir vous proposer le meilleur contenu possible et vous faire decouvrir les aspects les plus merveilleux de la musique.</p>
+</div> 
+
+<button type="button" class="collapsible">Eske yaura la musik de FoRtNiTe????</button>
+<div class="content">
+  <p>Non.</p> <a href="song/Fortnite.mp3" target="file"><p class="oui">(oui)</p></a>
+</div> 
+
+<button type="button" class="collapsible">Comment avez-vous fait pour rendre un tel projet en si peu de temps? Etes-vous des magiciens?</button>
+<div class="content">
+  <p>Pour être tout à fait honnête, notre formateur et ami Rafik nous a épaulé afin de nous montrer plus en profondeur ce que nous n'avions pu voir en cours à cause du tronc commun qui nous a pris la majorité du temps passé en cours.</p>
+</div>
+  
+  <button type="button" class="collapsible">Serait-il possible à terme, de pouvoir modifier les bpm de chaques pistes?</button>
+<div class="content">
+  <p>L'ajout de cette fonctionnalité est l'une de nos priorité afin de laisser libre cours aux âmes artistiques des utilisateurs.</p>
+</div> 
+
+</div> 
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+
+<footer>
+	
+  <p>Site crée par Wassim et Nathan, PPE pour l'école IMIE PARIS</p>
+<a target="file" href="https://www.imie-paris.fr/"><img class="imie" src="img\logoIMIE.png"></a>
+
+</footer>
