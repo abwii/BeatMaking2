@@ -20,7 +20,7 @@
   <a href="#">Communauté</a>
   <a href="#">FAQ</a>
   <a href="#" class="rainbow" >Contact</a>
-  azduaizudjiudjad
+  azduaizudjiudjada
 </div>
 
 <div id="main">
