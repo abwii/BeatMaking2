@@ -1,0 +1,129 @@
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+text-decoration: none;
+}
+
+@-webkit-keyframes fadein{
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+.bn{
+display: flex;
+padding: 20px;
+margin-left: 500px;
+}
+
+.bn li{
+list-style-type: none;
+}
+
+.bn a{
+display: block;
+min-width: 100px;
+margin: 0.5rem;
+padding: 0.4rem 0;
+text-align: center;
+background-color: #000;
+color: #fff;
+text-decoration: none;
+border: 3px solid #fff;
+margin-left: 100px;
+}
+
+.bn a:hover {
+background-color: #fff;
+color: black;
+border-color: black;
+}
+
+.logo {
+position: absolute;
+margin-left: 60px;
+margin-top: 10px;
+height: 70px;
+}
+
+header{
+background-color: black;
+<hr width: 50%;>
+text-decoration-line: underline;
+width: 100%;
+margin-bottom: 100px;
+margin-top: 30px;
+margin-left: -10px;
+}
+
+.header{
+position: absolute;
+width: 100%;
+height: 144px;
+left: 0px;
+top: 34px;
+background: white;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    color: white;
+    margin: 10px;
+    display: flex;
+    position: fixed;
+    bottom: 0px; 
+}
+
+.imie{
+    position: relative;
+    height: 30px;
+    border: 1px solid #fff; 
+    margin-left: 10px;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 500px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 610px;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  max-width: 800px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  margin-left: 610px
+}
+.oui{
+  color: white;
+}
